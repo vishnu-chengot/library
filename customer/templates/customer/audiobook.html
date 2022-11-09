@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="{% static 'styles/audiobook.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="nav-bar">
+    <div class="logo-section">
+      <div class="logo">
+        <img class="logo-img" src="{% static 'images/newlibrary.png' %}" alt="">
+        <h1 class="nav-heading"><span class="main-letter">e</span> -Library  </h1>
+         </div>
+     </div>
+     <div class="search-bar">
+      <input class="search" type="search" placeholder="&nbsp;&#xF002; New trending books">
+      <button class="search-btn">Search</button>
+     </div>
+  </div>
+  <div class="audio-section1">
+   <div class="audio-sec-col">
+    <div class="book-col1">
+      <img class="book-img" src="{% static 'images/images (5).jpg' %}" alt="">
+      <audio src="" controls></audio>
+    <span class="book-icon"><i class="fa-solid fa-download"></i></span>
+    <span class="book-icon" ><i class="fa-solid fa-share"></i></span>
+    <span class="book-icon"><i class="fa-solid fa-bookmark"></i></span>
+    </div>
+    <div class="book-col2">
+      <img class="book-img" src="{% static 'images/images (7).jpg' %}" alt="">
+      <audio src="" controls></audio>
+      <span class="book-icon"><i class="fa-solid fa-download"></i></span>
+    <span class="book-icon" ><i class="fa-solid fa-share"></i></span>
+    <span class="book-icon"><i class="fa-solid fa-bookmark"></i></span>
+    </div>
+   </div>
+
+
+  
+  </div>
+
+  <div class="audio-section2">
+    <div class="audio-sec-col">
+      <div class="book-col1">
+        <img class="book-img" src="{% static 'images/images (8).jpg' %}" alt="">
+        <audio src="" controls></audio>
+      <span class="book-icon"><i class="fa-solid fa-download"></i></span>
+      <span class="book-icon" ><i class="fa-solid fa-share"></i></span>
+      <span class="book-icon"><i class="fa-solid fa-bookmark"></i></span>
+      </div>
+      <div class="book-col2">
+        <img class="book-img" src="{% static 'images/images (13).jpg' %}" alt="">
+        <audio src="" controls></audio>
+        <span class="book-icon"><i class="fa-solid fa-download"></i></span>
+      <span class="book-icon" ><i class="fa-solid fa-share"></i></span>
+      <span class="book-icon"><i class="fa-solid fa-bookmark"></i></span>
+      </div>
+     </div>
+    
+  </div>
+</body>
+</html>

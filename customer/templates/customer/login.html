@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login page</title>
+  <link rel="stylesheet" href="{% static 'styles/login.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+    
+
+    <div class="login-section1">
+      <div class="login-img-section1">
+        <img class="login-img" src="{% static 'images/images (13).jpg' %}" alt="">
+      </div>
+      <div class="login-img-section2">
+        <div class="color-div1"></div>
+      </div>
+      <div class="login-img-section3">
+        <img class="login-img" src="{% static 'images/download (9).jpg' %}" alt="">
+      </div>
+    </div>
+      <div class="login-section2">
+      <div class="login-img-section4">
+        <div class="color-div2"></div>
+      </div>
+      <div class="login-img-section5">
+        
+        <img class="login-img" src="{% static 'images/download (6).jpg' %}" alt="">
+      </div>
+      <div class="login-img-section6">
+        <div class="color-div2"></div>
+      </div>
+    </div>
+    
+    
+    
+  </div>
+  <div class="login-area">
+    <div class="logo">
+      <img class="logo-img" src="{% static 'images/newlibrary.png' %}" alt="">
+      <h1 class="logo-head"><span class="logo-letter">e</span> -Library</h1>
+      
+       </div> 
+    <div class="form">
+    <form action="">
+    <label class="login-text" for="">User Name</label> <br> <br>
+    <input  class="text-box" type="text" placeholder=" &nbsp;&#xf007; type your answer"> <br> <br>
+    <label class="login-text"  for="">Password</label><br> <br>
+    <input  class="text-box" type="password" placeholder="&nbsp;&#xf023; type your answer"> <br> <br>
+    <a href="">Forget Password</a> <br> <br>
+    <button class="login-btn">Login</button> 
+    <button class="login-btn">New User</button> 
+    <br>
+    <br>
+    </form>
+    <div class="footer">
+      <h5>or login using</h5>
+      <span class="social-icon"><i class="fa-brands fa-facebook"></i></span>
+      <span class="social-icon"><i class="fa-brands fa-google-plus-g"></i></span>
+      <span class="social-icon"><i class="fa-brands fa-twitter"></i></span>
+     </div>
+  </div>
+  </div>
+</body>
+</html>

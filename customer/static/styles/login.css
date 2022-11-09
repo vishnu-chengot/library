@@ -1,0 +1,124 @@
+body{
+  background-color: #f3d9e8;
+}
+.main{
+  background-color: #F2EBE3;
+  text-align: center;
+  border-radius: 20px;
+  width: 50%;
+  height: 600px;
+  float:left;
+  
+}
+.logo{
+  display: inline;
+  position: absolute;
+  left: 148px;
+}
+
+
+.logo-img{
+  width: 60px;
+  height: 60px;
+}
+.logo-head{
+  display: inline;
+  color: #0D1713;
+  font-family: 'Montserrat', sans-serif;
+  display: inline;
+  font-size: 32px;
+  font-weight: bolder;
+}
+.logo-letter{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 97px;
+}
+.login-img{
+  /* width: 622px; */
+    /* height: 297px; */
+  display: block;
+}
+
+.login-section1{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px 0px 52px;
+}
+.login-section2{
+  display: flex;
+  flex-direction: row;
+  margin:0px 0px 20px 52px;
+}
+.login-img-section1, .login-img-section2, .login-img-section3, .login-img-section4, .login-img-section5,.login-img-section6{
+  flex: 0;
+}
+.color-div1{
+  background-color: #E1C7A2;
+  width: 191px;
+  height: 277px;
+}
+.color-div2{
+  background-color: #E1C7A2;
+  width: 191px;
+  height: 284px;
+}
+/* login area */
+.login-area{
+  background-color: #F2EBE3;
+  /* text-align: center; */
+  border-radius: 20px;
+  width: 40%;
+  height: 500px;
+  float: right;
+  margin: 56px 84px 40px 10px;
+  position: relative;
+}
+.login-text{
+  font-family: 'Libre Caslon Text', serif;
+  color: #0D1713;
+  font-size: 15px;
+  font-weight: bold;
+}
+.text-box{
+  height: 30px;
+  width: 276px;
+  border-radius: 20px;
+  border: none;
+}
+.form{
+position: absolute;
+top: 142px;
+left: 129px;
+}
+.login-btn{
+  background-color: #E1C7A2;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+::placeholder{
+  font-family: 'Montserrat',FontAwesome;
+
+}
+a{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #0D1713;
+}
+h5{
+  color: #0D1713;
+  font-family: 'Montserrat', sans-serif;
+}
+.social-icon{
+  padding: 0px 10px;
+}
+.footer{
+  /* position: absolute; */
+  /* left: 40px; */
+  text-align: center;
+
+}
