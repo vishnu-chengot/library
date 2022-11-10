@@ -6,7 +6,7 @@ body{
 .contact-section{
   background-color: #F2EBE3;
   width: 50%;
-  height: 400px;
+  height: 500px;
   margin: 10% 25%;
   border-radius: 25px;
   text-align: center;
@@ -27,13 +27,13 @@ right: 253px;
   display: inline;
   position: absolute;
   top: 115px;
-  right: 125px;
+  right: 77px;
 }
 
 .message{
   width: 350px;
   height: 100px;
-  border-radius: 340px;
+  border-radius: 29px;
   border: none;
 }
 .text-box{
@@ -45,13 +45,35 @@ right: 253px;
 
 ::placeholder{
   color: #d8bc9d;
+  margin-left: 20px;
+
 }
 .sumbit-btn{
-  background-color: #E1C7A2;
-  border: none;
-  padding: 10px 100px;
-  border-radius: 50px;
-  color: #fff;
+  /* background-color: #E1C7A2; */
+  border: gray 1px solid;
+  padding: 12px 33px;
+  border-radius: 41px;
+  color: #0D1713;
   font-size: 20px;
   font-weight: bold;
+}
+.sumbit-btn:hover{
+  background-color: #E1C7A2;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+a:hover{
+  color: #fff;
+}
+a{
+  text-decoration: none;
+  color:#0D1713;
+}
+
+.main-img{
+  position: absolute;
+  left: 26px;
+  top: 102px;
+
 }

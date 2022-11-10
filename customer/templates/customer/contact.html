@@ -12,12 +12,16 @@
 <body>
   <div class="contact-section">
     <h1>Contact Us</h1>
+    <img class="main-img" src="{% static 'images/images14.png' %}" alt="">
     <div class="contact">
+      
       <form action="">
+        
         <input class="text-box" type="text" placeholder=" Your Name"> <br> <br>
         <input class="text-box" type="email" name="" id="" placeholder="User Email"> <br> <br>
         <input class="message" type="text" placeholder="Message"> <br> <br>
         <BUtton class="sumbit-btn">Sumbit</BUtton>
+        <BUtton class="sumbit-btn"> <a href="{% url 'customer:home' %}">Back to Home</a></BUtton>
       </form>
     </div>
   </div>

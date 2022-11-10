@@ -20,14 +20,14 @@
     </div>
   </div>
   <div class="button-section">
- <button class="btn-book"><i class="fa-solid fa-book"></i> Books</button>
- <button class="btn-book"><i class="fa-solid fa-headphones"></i> Audio Books</button>
+ <button class="btn-book"><i class="fa-solid fa-book"></i> <a href="{% url 'customer:bookshelf' %}">Books</a> </button>
+ <button class="btn-book" ><i class="fa-solid fa-headphones"></i> <a href="{% url 'customer:audiobook' %}">Audio Books</a> </button>
   </div>
   <div class="link-section">
     <ul>
-      <li> <a href="">contact</a> </li>
-      <li> <a href="">Book shelf</a></li>
-      <li> <a href="">Login</a></li>
+      <li> <a href="{% url 'customer:contact' %}">contact</a> </li>
+      <li> <a href="{% url 'customer:bookshelf' %}">Book shelf</a></li>
+      <li> <a href="{% url 'customer:login' %}">Login</a></li>
     </ul>
   </div>
   </div>
